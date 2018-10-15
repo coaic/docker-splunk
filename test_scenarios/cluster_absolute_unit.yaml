@@ -11,7 +11,7 @@ services:
       splunknet:
         aliases:
           - sh1
-    image: splunk/splunk:latest
+    image: splunk/splunk-debian-9:7.2.0
     hostname: sh1
     container_name: sh1
     environment:
@@ -35,7 +35,7 @@ services:
       splunknet:
         aliases:
           - sh2
-    image: splunk/splunk:latest
+    image: splunk/splunk-debian-9:7.2.0
     hostname: sh2
     container_name: sh2
     environment:
@@ -59,7 +59,7 @@ services:
       splunknet:
         aliases:
           - sh3
-    image: splunk/splunk:latest
+    image: splunk/splunk-debian-9:7.2.0
     hostname: sh3
     container_name: sh3
     environment:
@@ -83,7 +83,7 @@ services:
       splunknet:
         aliases:
           - dep1
-    image: splunk/splunk:latest
+    image: splunk/splunk-debian-9:7.2.0
     hostname: dep1
     container_name: dep1
     environment:
@@ -107,7 +107,7 @@ services:
       splunknet:
         aliases:
           - cm1
-    image: splunk/splunk:latest
+    image: splunk/splunk-debian-9:7.2.0
     hostname: cm1
     container_name: cm1
     environment:
@@ -131,7 +131,7 @@ services:
       splunknet:
         aliases:
           - idx1
-    image: splunk/splunk:latest
+    image: splunk/splunk-debian-9:7.2.0
     hostname: idx1
     container_name: idx1
     environment:
@@ -155,7 +155,7 @@ services:
       splunknet:
         aliases:
           - idx2
-    image: splunk/splunk:latest
+    image: splunk/splunk-debian-9:7.2.0
     hostname: idx2
     container_name: idx2
     environment:
@@ -179,7 +179,7 @@ services:
       splunknet:
         aliases:
           - idx3
-    image: splunk/splunk:latest
+    image: splunk/splunk-debian-9:7.2.0
     hostname: idx3
     container_name: idx3
     environment:
@@ -203,7 +203,7 @@ services:
       splunknet:
         aliases:
           - idx4
-    image: splunk/splunk:latest
+    image: splunk/splunk-debian-9:7.2.0
     hostname: idx4
     container_name: idx4
     environment:
